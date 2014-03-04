@@ -1,0 +1,5 @@
+config SMP_PRIO
+bool "sets one priority per processor"
+default y
+help
+"sets smp priorities given a process id"
